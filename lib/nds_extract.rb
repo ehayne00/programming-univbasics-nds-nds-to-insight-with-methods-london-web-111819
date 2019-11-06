@@ -22,7 +22,9 @@ end
 # using director_data as input
 
 def gross_for_director(directors_data)
-  binding.pry
-  directors_data.each
-    
+  total = 0 
+  directors_data[:movies].each do |movie|
+    total += movie[:worldwide_gross]
+  end 
+  total
 end
