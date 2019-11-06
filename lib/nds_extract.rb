@@ -21,11 +21,8 @@ end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 
-def gross_for_director(directors_totals)
+def gross_for_director(directors_data)
+  binding.pry
   
-  directors_totals do |director, total|
-    directors_totals[director] = total
     
-  end
-  puts total
 end
