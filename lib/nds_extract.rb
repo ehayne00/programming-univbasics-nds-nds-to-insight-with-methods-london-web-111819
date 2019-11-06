@@ -23,6 +23,6 @@ end
 
 def gross_for_director(directors_data)
   binding.pry
-  
+  directors_data.each
     
 end
